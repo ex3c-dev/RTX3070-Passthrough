@@ -20,6 +20,6 @@ Using a hex editor of your choice (Recommandation: Bless) open the rom and searc
 2. Go to your vm config in `/etc/pve/qemu-server` and add your romfile to the pci passthrough `romfile=<RomFile>`.
 3. Your vm should now boot without a black screen.
 
-### Troubleshooting
-#### Audio Problems
+## Troubleshooting
+### Audio Problems
 If you are having audio problems and the HDMI Device is not detected as an audio device try reinstalling the Nvidia driver. This is common when upgrading your gpu.
